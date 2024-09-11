@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
+  </head>
+
+  <body>
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Use appropriate css classes on nav element. -->
+    <!-- 2. Add child elements as required. -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">QTrip</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Use appropriate css classes on the hero image container element. -->
+    <!-- 2. Add child elements as required. -->
+
+    <div class="hero-image d-flex flex-column justify-content-center align-items-center text-white text-center">
+      <div class="hero-subheading">
+        <h3>Welcome to Qtrip</h3>
+        <p>Explore the world with fantastic places to venture around</p>
+      </div>
+      <div class="hero-input">
+        <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search" />
+      </div>
+    </div>
+
+      <!-- TODO: MODULE_LAYOUT -->
+      <!-- 1. Create the grid like layout as required. -->
+
+
+      <div class="container">
+      <div class="row">
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/bengaluru.jpg" alt="Bangalore">
+            <div class="tile-text">
+              <h5>Bengaluru</h5>
+              <p>1000+ Places</p>
+            </div>
+          </div>
+          </a> 
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/kolkata.jpg" alt="Kolkata">
+            <div class="tile-text">
+              <h5>Kolkata</h5>
+              <p>52+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/goa.jpg" alt="Goa">
+            <div class="tile-text">
+              <h5>Goa</h5>
+              <p>180+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/mumbai.jpg" alt="Mumbai">
+            <div class="tile-text">
+              <h5>Mumbai</h5>
+              <p>121+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/malaysia.jpg" alt="Malaysia">
+            <div class="tile-text">
+              <h5>Malaysia</h5>
+              <p>89+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/dubai.jpg" alt="Dubai">
+            <div class="tile-text">
+              <h5>Dubai</h5>
+              <p>74+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/paris.jpg" alt="Paris">
+            <div class="tile-text">
+              <h5>Paris</h5>
+              <p>172+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col col-lg-3 col-sm-6 col-12 mb-4">
+          <a href="pages/adventures/index.html">
+          <div class="tile">
+            <img src="./assets/singapore.jpg" alt="Singapore">
+            <div class="tile-text">
+              <h5>Singapore</h5>
+              <p>150+ Places</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">© QTrip 2023</div>
+    </footer>
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- Add scripts needed for bootstrap to work -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
